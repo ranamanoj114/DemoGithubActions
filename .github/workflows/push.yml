@@ -1,5 +1,5 @@
 name: Push docker image
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} executed on ${{ github.branch }}
 on:
   workflow_dispatch:
 
